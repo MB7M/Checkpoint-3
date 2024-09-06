@@ -225,34 +225,6 @@ Consistency Policy : resync
     Number   Major   Minor   RaidDevice State
        0       8        1        0      active sync   /dev/sda1
        2       8       16        1      active sync   /dev/sdb
-root@SRVLX01:/home/mohamed# watch cat /proc/mdstat
-root@SRVLX01:/home/mohamed# mdadm --detail /dev/md0
-/dev/md0:
-           Version : 1.2
-     Creation Time : Tue Dec 20 10:02:28 2022
-        Raid Level : raid1
-        Array Size : 8381440 (7.99 GiB 8.58 GB)
-     Used Dev Size : 8381440 (7.99 GiB 8.58 GB)
-      Raid Devices : 2
-     Total Devices : 2
-       Persistence : Superblock is persistent
-
-       Update Time : Fri Sep  6 12:45:36 2024
-             State : clean
-    Active Devices : 2
-   Working Devices : 2
-    Failed Devices : 0
-     Spare Devices : 0
-
-Consistency Policy : resync
-
-              Name : cp3:0
-              UUID : 32332561:cf16c858:703517e8:81dd5c10
-            Events : 2657
-
-    Number   Major   Minor   RaidDevice State
-       0       8        1        0      active sync   /dev/sda1
-       2       8       16        1      active sync   /dev/sdb
 ```
 
 
