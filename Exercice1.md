@@ -56,12 +56,14 @@ J'ai créé le dossier individuel de Lionel Lemarchand dans le lecteur F: et arc
 ### Q.1.2.2  
 
 
-Dans l'onglet Account des propriétés de l'utilisateur, j'ai cliqué sur Log On To, sélectionné The following computers, puis ajouté CLIENT01 comme unique ordinateur autorisé pour la connexion.
+Dans l'onglet Account des propriétés de l'utilisateur, j'ai cliqué sur Log On To, sélectionné The following computers, puis ajouté CLIENT01 comme unique ordinateur autorisé pour la connexion.  
+
 ![Créer l'utilisateur Lionel Lemarchand](https://github.com/MB7M/Checkpoint-3/blob/main/Images/part2q1.2.2.png)  
 
-### Q.1.2.3 Mettre en place une stratégie de mot de passe pour durcir les comptes des utilisateurs de l'OU LabUsers.  
+### Q.1.2.3  
 
-Tout d'abord, j'ai crée et activé ma GPO dans l'OU LabUsers
+Tout d'abord, j'ai crée et activé ma GPO dans l'OU LabUsers  
+
 ![Créer l'utilisateur Lionel Lemarchand](https://github.com/MB7M/Checkpoint-3/blob/main/Images/part2Q1.2.3.png)   
 
 Ensuite je l'ai édité pour y intégrer la stratégie de mdp  
